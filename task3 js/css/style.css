@@ -1,0 +1,41 @@
+body{
+    background-color: #f7ecde;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    background-color: #fec260;
+    width: 100%;
+    height: 25px;
+    bottom: 0px;
+left: 0px;
+transition: 0.5s;
+z-index: -1;
+}
+h1:hover::after{
+    height: 40px;
+}
+
+h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bookmark-body{
+    border-top: 2px black dotted;
+    border-bottom: 2px black dotted;
+}
+.btn{
+    background-color: #bb4120;
+    color: white;
+
+}
+.btn:hover{
+    background-color: #bb5020;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
+}
